@@ -2,6 +2,22 @@
 padding: 0;
 border: 0;
 }
+   
+header {
+  background-color: white;
+  width: 100%;
+}
+header img {
+  width: 40%;
+  padding: 10px; 
+}
+body {
+  background-image: url('../images/aboutbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
 
 body {
   background-image: url('../image/marble.jpeg');
@@ -27,8 +43,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  background-color: ;
-  color: #800020;
+  color: #48dcc9;
 
 }
 
@@ -50,12 +65,12 @@ h3 {
   padding-bottom: 20px;
   padding-top: 25px;
   padding-left: 35px;
-  color: #800020;
+  color: #48dcc9;
   font-family: 'Open Sans', sans-serif;
 }
 
 footer {
-  background-color: #800020;
+  background-color: #48dcc9;
   color: white;
   text-align: center;
   font-family: 'open sans';
