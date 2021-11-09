@@ -1,0 +1,118 @@
+* { margin: 0;
+    padding: 0;
+    border: 0;
+    }
+   
+    header {
+      background-color: white;
+      width: 100%;
+  }
+    header img {
+      width: 40%;
+      padding: 10px; 
+  }
+    body {
+      background-image: url('../images/aboutbackground.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+    }
+    
+    h4 {
+      padding-bottom: 20px;
+      color: #48dcc9;
+    }
+    
+    main {
+      text-align: center;
+      padding-top: 40px;
+      font-family: 'Open Sans';
+      font-size: 16px;
+      display: block;
+      width: 100%;
+    }
+    
+    img{
+    max-width: 300px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    }
+    
+    nav {
+      background-color: #808080;
+      text-align: left;
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      width: 120%;
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+    a:link, a:visited {
+      color: white;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #48dcc9;
+    
+    }
+    
+    a {
+      padding: 20px;
+    }
+    
+    
+    h3 {
+      font-size: 25pt;
+      line-height: .5;
+      padding-bottom: 20px;
+      padding-top: 25px;
+      padding-left: 35px;
+      color: #48dcc9;
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+    p {
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 20px;
+    }
+    
+    ul {
+      padding-bottom: 20px;
+    }
+    footer {
+      background-color: #800020;
+      color: white;
+      text-align: center;
+      font-family: 'open sans';
+      width: 100%;
+      height: 20px;
+      position: absolute;
+    }
+    
+    /* media queries */
+
+@media (min-width: 375px) {
+  body {
+   background-image: url('../images/aboutmobile.png');
+  }
+}
+
+@media (max-width: 700px) {
+  header img {
+      width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+      background-image: url('../images/aboutbackground.png');
+  }    
+}
