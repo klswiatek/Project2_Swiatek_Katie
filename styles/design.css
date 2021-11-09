@@ -54,9 +54,8 @@ a {
 img {
   max-width: 40%;
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-  padding-left: 85px;
 }
 
 h3 {
@@ -78,3 +77,32 @@ footer {
   height: 20px;
   position: absolute;
 }
+
+    /* media queries */
+
+    @media (min-width: 375px) {
+      body {
+       background-image: url('../images/aboutmobile.png');
+      }
+    }
+    
+    @media (max-width: 700px) {
+      header img {
+          width: 50%;
+      }
+    }
+    
+    @media (min-width: 800px) {
+      body {
+          background-image: url('../images/aboutbackground.png');
+      }   
+    }
+
+    @media (max-width: 800px) {
+      main { 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+    }

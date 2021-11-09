@@ -166,3 +166,23 @@ footer {
   height: 20px;
   position: absolute;
 }
+
+    /* media queries */
+
+    @media (min-width: 375px) {
+      body {
+       background-image: url('../images/aboutmobile.png');
+      }
+    }
+    
+    @media (max-width: 700px) {
+      header img {
+          width: 50%;
+      }
+    }
+    
+    @media (min-width: 800px) {
+      body {
+          background-image: url('../images/aboutbackground.png');
+      }    
+    }
