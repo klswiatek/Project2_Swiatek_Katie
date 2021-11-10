@@ -20,6 +20,10 @@
       width: 100%;
       height: auto;
     }
+    .headshot {
+      display: block;
+      float: right;
+    }
     
     nav {
       background-color: #808080;

@@ -3,12 +3,25 @@
 padding: 0;
 border: 0;
 }
+
+header {
+      background-color: white;
+      width: 100%;
+  }
+
+header img {
+      width: 40%;
+      padding: 10px; 
+    }
+
 body {
-  background-image: url('../image/marble.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130%;
+    width: 100%;
+    height: auto;
+  }
 
 p {
   display: block;
@@ -22,11 +35,10 @@ p::first-line {
     color: #800020;
   }
 
-nav {
+  nav {
     background-color: #808080;
     text-align: left;
     color: white;
-    font-family: sans-serif;
     font-size: 20px;
     padding: 15px;
     width: 100%;
@@ -57,8 +69,7 @@ h1 {
   }
 
   a:hover {
-    background-color: ;
-    color: #800020;
+    color: #48dcc9;
   }
 
   a {
@@ -67,7 +78,9 @@ h1 {
 </style>
 <header>
   <section>
-  <h3>Katie Lynn Swiatek</h3>
+  <header>
+    <img src="images/logo.png" alt="Katie Lynn Swiatek">
+  </header>
   <nav>
     <a href="about.html">About</a>
     <a href="examples.html">Work Samples</a>
