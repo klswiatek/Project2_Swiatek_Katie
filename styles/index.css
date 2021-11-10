@@ -20,9 +20,11 @@
       width: 100%;
       height: auto;
     }
+
     .headshot {
       display: block;
       float: right;
+      clear: both;
     }
     
     nav {
@@ -76,6 +78,25 @@
       top: 40%;
       text-align: center;
       font-family: 'open sans';
+    }
+
+    #panel, #flip {
+      display: block;
+      padding: 5px;
+      text-align: center;
+      width: 30%;
+      background-color: #48dcc9;
+      border: solid 1px #c3c3c3;
+      clear: both;
+      font-family: 'open sans';
+    }
+
+    #flip {
+      margin-top: 40px;
+    }
+    
+    #panel {
+      display: none;
     }
 
 /* media queries */

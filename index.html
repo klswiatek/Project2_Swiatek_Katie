@@ -13,6 +13,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/kki6kad.css">
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script> 
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+  });
+  </script>
 <header>
     <img src="images/logo.png" alt="Katie Lynn Swiatek">
 </header>
@@ -24,6 +32,9 @@
 </nav>
 </section>
 <body>
-    <img class="headshot" src="images/headshot.png" alt="Katie Lynn Swiatek">
+  <div id="flip">Click to View Resume</div>
+  <div id="panel"> <a href="resume.pdf">Resume</a></div>
+  <img class="headshot" src="images/headshot.png" alt="Katie Lynn Swiatek">
+</div>
 </body>
 </html>
